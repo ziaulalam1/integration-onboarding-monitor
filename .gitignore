@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 events.db
 INTERVIEW.md
+.claude/
