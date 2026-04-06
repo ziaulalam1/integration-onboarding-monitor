@@ -1,0 +1,7 @@
+{
+  "requests": 1000,
+  "customers": 20,
+  "p50_ms": 14.654,
+  "p95_ms": 18.471,
+  "throughput_rps": 67.3
+}
