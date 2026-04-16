@@ -6,3 +6,5 @@ __pycache__/
 events.db
 INTERVIEW.md
 .claude/
+CLAUDE.md
+INTERVIEW_CHEATSHEET.md
