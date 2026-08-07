@@ -41,6 +41,8 @@ pip install -r requirements.txt
 
 pytest tests/                      # 15 tests
 python scripts/benchmark.py        # reports/results.json + reports/throughput.png
+
+uvicorn main:app --reload         # serve on http://127.0.0.1:8000
 ```
 
 ## Stack

@@ -72,7 +72,6 @@ results = {
 print(json.dumps(results, indent=2))
 (REPORTS / "results.json").write_text(json.dumps(results, indent=2))
 
-# Chart
 fig, ax = plt.subplots(figsize=(8, 4))
 ax.hist(latencies, bins=50, color="#4a90d9", edgecolor="white")
 ax.axvline(p50, color="green", linestyle="--", linewidth=1.5, label=f"p50 = {p50:.2f}ms")
